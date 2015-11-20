@@ -1,0 +1,26 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: kbhadke
+ * Date: 25/10/15
+ * Time: 1:02 PM
+ */
+use app\models\Lookup;
+use yii\helpers\Html;
+
+?>
+
+<div class="row">
+    <div class="panel panel-default">
+        <div class="panel-body">
+
+            <h4><b><?= Html::a( $model['title'], ['/job/view', 'id'=>$model['id']], ['title' => $model['title']] ) ?></b></h4>
+            <p><?=$model['description'];?></p>
+            <p><?= Lookup::item('JobType', $model['job_type']) ?></p>
+            <hr/>
+            <p><?= Lookup::item('EmploymentType', $model['employment_type']) ?></p>
+            <p><?= $model['start_date']?> to <?= $model['end_date']?></p>
+
+        </div>
+    </div>
+</div>

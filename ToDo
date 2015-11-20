@@ -1,0 +1,141 @@
+
+CREATE USER 'connectme'@'localhost' IDENTIFIED BY 'connectme';
+create database connectme;
+grant all privileges on connectme.* to connectme@localhost ;
+
+
+Job/Task contact person
+upload file
+
+
+
+User profile to others:
+Summary
+-----------------
+Recent activities
+-----------------
+Background
+--------------------
+Skills and expertise
+
+
+User profile to himself:
+Search Tasks
+title, keywords, org name
+-------------------------
+approved tasks
+--------------
+tasks you may be interested in
+------------------------------
+
+
+Organization profile to others:
+Recent Updates
+--------------
+About this org
+
+
+Give users an option to follow organization
+
+
+HOME PAGE option1
+Create - Pickup - Collaborate - Deliver
+
+
+Expected end time format...
+
+How to use setFlash??
+
+
+
+co-ordinator and social journalist user
+
+
+
+
+
+
+
+
+
+USER
+summary
+skills/expertise
+interests
+education
+
+file(videos/images/documents of prior work)
+activity
+personal details---(DoB, contact details, languages known, address)
+follower / following
+
+
+
+ORG
+about
+mission
+vision
+offices(multiple, address)
+ACTIVITY
+Ask them more links of their work(which they might already have)
+ongoing projects
+
+
+AREAS
+ Education
+ Youth
+ Community development
+ Health and medicine
+ Network of nonprofits
+ Human services
+ Mental health
+ Multi-service agency
+ Drug abuse
+ Media
+ OLDAGE
+ ORPHANS
+ BLINDS(PH)
+ WIDOWS
+ (children of)SEX WORKERS
+
+
+WHAT ARE YOU LOOKING FOR?
+ All
+ Jobs
+ Internships
+ Volunteer opportunities
+ Organizations
+ Info pages
+ People
+ Events
+ Programs
+ Resources
+ Blog
+
+
+Job function
+ All
+ Education
+ Administration
+ Direct social services
+ Communications
+ Database management
+ Counseling
+ Event planning
+ Public policy
+ Maintenance
+ Gardening
+
+
+Employment type
+ Full time
+ Part time
+ Temporary
+ Contract
+
+Professional level
+ None specified
+ Entry level
+ Professional
+ Managerial
+ Executive
